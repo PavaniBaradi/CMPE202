@@ -1,0 +1,5 @@
+package com.cmpe202.g62.route;
+
+public class RoutingStrategy {
+
+}

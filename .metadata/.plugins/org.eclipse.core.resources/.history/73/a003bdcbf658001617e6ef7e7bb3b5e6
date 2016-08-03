@@ -1,0 +1,28 @@
+package com.cmpe202.g62.request.impl;
+
+import com.cmpe202.g62.request.RequestInterface;
+import com.cmpe202.g62.schedule.Scheduling;
+
+public abstract class Request implements RequestInterface{
+	protected Scheduling scheduling;
+	State state;
+	
+	public abstract void schedule();
+	
+	public Request(Scheduling s){
+		scheduling = s;
+	}
+	public Request(){
+		state = new WaitingState(this);
+	}
+
+	protected void ride(){
+		scheduling.ride();
+	}
+	
+	protected void park(){
+		scheduling.park();
+	}
+	
+	
+}

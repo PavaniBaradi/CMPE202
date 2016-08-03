@@ -1,0 +1,21 @@
+package com.cmpe202.g62.request.impl;
+
+import com.cmpe202.g62.schedule.Scheduling;
+
+public abstract class Request {
+	protected Scheduling scheduling;
+	
+	public abstract void schedule();
+	
+	public Request(Scheduling s){
+		scheduling = s;
+	}
+
+	protected void ride(){
+		scheduling.ride();
+	}
+	
+	protected void park(){
+		scheduling.park();
+	}
+}

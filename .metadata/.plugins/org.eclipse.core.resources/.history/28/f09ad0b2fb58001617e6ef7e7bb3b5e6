@@ -1,0 +1,18 @@
+package com.cmpe202.g62.request.impl;
+
+import com.cmpe202.g62.schedule.Scheduling;
+
+public class RideRequest extends Request {
+
+	public RideRequest(Scheduling s) {
+		super(s);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void schedule() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

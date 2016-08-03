@@ -1,0 +1,11 @@
+1407f269-9361-4130-ab03-da02658b2f80\:credentialProfileName=S3UserProfile
+2d85e07f-fd58-4144-a107-9b34c739f5e7\:credentialProfileName=AD
+96040713-ea37-475d-9b17-67010b4936fe\:credentialProfileName=Shelly
+cognitoIdentityId=us-east-1\:c53ec881-d721-4b8c-9f84-ac57f57d0f44
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=1407f269-9361-4130-ab03-da02658b2f80|96040713-ea37-475d-9b17-67010b4936fe|2d85e07f-fd58-4144-a107-9b34c739f5e7
+currentAccount=1407f269-9361-4130-ab03-da02658b2f80
+currentDefaultAccount=1407f269-9361-4130-ab03-da02658b2f80
+ec2PreferencesImported=true
+eclipse.preferences.version=1
+mobileAnalyticsClientId=2fc64fa9-efff-4561-9d67-cf1e132eac3c

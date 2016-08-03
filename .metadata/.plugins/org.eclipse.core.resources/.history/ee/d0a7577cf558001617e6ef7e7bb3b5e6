@@ -1,0 +1,5 @@
+package com.cmpe202.g62.request;
+
+public interface RequestInterface {
+
+}

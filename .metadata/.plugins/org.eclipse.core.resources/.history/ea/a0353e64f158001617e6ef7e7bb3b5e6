@@ -1,0 +1,11 @@
+package com.cmpe202.g62.request;
+
+public class RideRequest extends Request {
+
+	@Override
+	public void schedule() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
